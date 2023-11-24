@@ -6,7 +6,7 @@
 
 <!-- badges: end -->
 
-The goal of gchismtt is to ...
+The goal of gchismtt is to make my life easier when making #TidyTuesday plots
 
 ## Installation
 

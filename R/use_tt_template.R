@@ -1,4 +1,4 @@
-#' #'Create folder and files for #TidyTuesday data viz
+#' Create folder and files for #TidyTuesday data viz
 #' @param date_chr Date of #TidyTuesday in yyyy-mm-dd format.
 #' @param readme Boolean indicating whether to also use README template.
 #' @return a message if template file was successfully copied over

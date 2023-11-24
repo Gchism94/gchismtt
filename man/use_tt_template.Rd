@@ -2,7 +2,7 @@
 % Please edit documentation in R/use_tt_template.R
 \name{use_tt_template}
 \alias{use_tt_template}
-\title{#'Create folder and files for #TidyTuesday data viz}
+\title{Create folder and files for #TidyTuesday data viz}
 \usage{
 use_tt_template(date_chr = "yyyy-mm-dd", readme = TRUE)
 }
@@ -15,5 +15,5 @@ use_tt_template(date_chr = "yyyy-mm-dd", readme = TRUE)
 a message if template file was successfully copied over
 }
 \description{
-#'Create folder and files for #TidyTuesday data viz
+Create folder and files for #TidyTuesday data viz
 }

@@ -1,5 +1,6 @@
 url: ~
 template:
+  package: gchismpkgdown
   bootstrap: 5
-  bootswatch: lux
+
 
