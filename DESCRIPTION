@@ -28,3 +28,6 @@ Imports:
   tidyr,
   utils
 URL: https://gchism94.github.io/gchismtt/
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

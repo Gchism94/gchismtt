@@ -31,8 +31,6 @@ social <- function(github_username = "Gchism94",
                            icon_color = "#006199",
                            font_color = "#006199",
                            font_family = "roboto") {
-  if (!require(glue))
-    install.packages("glue")
 
   glue::glue(
     "<div style='background-color: {bg_color}; padding: 10px;'>
