@@ -22,7 +22,6 @@ Imports:
   lubridate,
   plotwidgets,
   purrr,
-  rd2list,
   rlang,
   stringr,
   tibble,
