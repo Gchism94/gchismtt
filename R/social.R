@@ -7,9 +7,9 @@
 #' @param github_username GitHub username (default: "Gchism94").
 #' @param linkedIn_username LinkedIn username (default: "greg-chism").
 #' @param web_link Personal or professional website link (default: "gregtchism.com").
-#' @param github_icon HTML character entity for GitHub icon (default: "\uf09b").
-#' @param linkedIn_icon HTML character entity for LinkedIn icon (default: "\uf08c").
-#' @param web_icon HTML character entity for a generic web icon (default: "\uf0ac").
+#' @param github_icon HTML character entity for GitHub icon (default: "&#xf09b").
+#' @param linkedIn_icon HTML character entity for LinkedIn icon (default: "&#xf08c").
+#' @param web_icon HTML character entity for a generic web icon (default: "&#xf0ac").
 #' @param icon_col Color for the icons (default: "#006199").
 #' @param text_col Color for the text (default: "#006199").
 #' @param body_font Font family for the text (default: "roboto").
@@ -23,9 +23,9 @@
 social <- function(github_username = "Gchism94",
                            linkedIn_username = "greg-chism",
                            web_link = "gregtchism.com",
-                           github_icon = "\uf09b",
-                           linkedIn_icon = "\uf08c",
-                           web_icon = "\uf0ac",
+                           github_icon = "&#xf09b",
+                           linkedIn_icon = "&#xf08c",
+                           web_icon = "&#xf0ac",
                            icon_col = "#006199",
                            text_col = "#006199",
                            body_font = "roboto") {
