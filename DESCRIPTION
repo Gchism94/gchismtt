@@ -23,7 +23,9 @@ Imports:
   plotwidgets,
   purrr,
   rlang,
+  showtext,
   stringr,
+  sysfonts,
   tibble,
   tidyr,
   utils

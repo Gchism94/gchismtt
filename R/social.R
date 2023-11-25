@@ -15,6 +15,8 @@
 #' @param body_font Font family for the text (default: "roboto").
 #' @return An HTML string representing the formatted social media details.
 #' @importFrom glue glue
+#' @importFrom sysfonts font_add
+#' @importFrom showtext showtext_auto
 #' @examples
 #' social(github_username = "YourGitHub",
 #'        linkedIn_username = "YourLinkedIn",
@@ -30,7 +32,14 @@ social <- function(github_username = "Gchism94",
                            text_col = "#006199",
                            body_font = "roboto") {
 
-  glue::glue(
+  font_add(family = "Font Awesome 6 Brands",
+                     regular = system.file("fonts/Font-Awesome-6-Brands-Regular-400.otf",
+                                           package = "gchismtt",
+                                           mustWork = TRUE))
+
+  showtext_auto()
+
+  glue(
     "<span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{github_icon}</span>
       <span style='color: {text_col}; font-family: \"{body_font}\";'> {github_username}</span>
       <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{linkedIn_icon}</span>

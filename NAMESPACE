@@ -3,3 +3,5 @@
 export(social)
 export(use_tt_template)
 importFrom(glue,glue)
+importFrom(showtext,showtext_auto)
+importFrom(sysfonts,font_add)
