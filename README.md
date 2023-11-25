@@ -2,8 +2,7 @@
 # gchismtt
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/Gchism94/gchismtt/workflows/R-CMD-check/badge.svg)](https://github.com/Gchism94/gchismtt/actions)
-
+[![R-CMD-check](https://github.com/Gchism94/gchismtt/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Gchism94/gchismtt/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of gchismtt is to make my life easier when making #TidyTuesday plots
