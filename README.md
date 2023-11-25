@@ -12,16 +12,12 @@ The goal of gchismtt is to make my life easier when making #TidyTuesday plots
 You can install the development version of gchismtt from [GitHub](https://github.com/Gchism94/gchismtt/) with:
 
 ``` r
-# install.packages("devtools")
 devtools::install_github("Gchism94/gchismtt")
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+or
 
 ``` r
-library(gchismtt)
-## basic example code
+remotes::install_github("Gchism94/gchismtt")
 ```
+
 
