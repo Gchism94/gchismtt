@@ -1,6 +1,4 @@
-url: ~
+url: https://gchism94.github.io/gchismtt/
 template:
-  package: gchismpkgdown
   bootstrap: 5
-
 
