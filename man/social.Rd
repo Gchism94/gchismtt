@@ -8,9 +8,9 @@ social(
   github_username = "Gchism94",
   linkedIn_username = "greg-chism",
   web_link = "gregtchism.com",
-  github_icon = "&#xf09b",
-  linkedIn_icon = "&#xf08c",
-  web_icon = "&#xf0ac",
+  github_icon = "",
+  linkedIn_icon = "",
+  web_icon = "",
   icon_col = "#006199",
   text_col = "#006199",
   body_font = "roboto"
@@ -23,11 +23,11 @@ social(
 
 \item{web_link}{Personal or professional website link (default: "gregtchism.com").}
 
-\item{github_icon}{HTML character entity for GitHub icon (default: "&#xf09b").}
+\item{github_icon}{HTML character entity for GitHub icon (default: "\uf09b").}
 
-\item{linkedIn_icon}{HTML character entity for LinkedIn icon (default: "&#xf08c").}
+\item{linkedIn_icon}{HTML character entity for LinkedIn icon (default: "\uf08c").}
 
-\item{web_icon}{HTML character entity for a generic web icon (default: "&#xf0ac").}
+\item{web_icon}{HTML character entity for a generic web icon (default: "\uf0ac").}
 
 \item{icon_col}{Color for the icons (default: "#006199").}
 
