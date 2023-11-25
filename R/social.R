@@ -33,13 +33,13 @@ social <- function(github_username = "Gchism94",
                            body_font = "roboto") {
 
   glue::glue(
-    "<div style='background-color: {bg_col}; padding: 10px;'>
+    "<p style='background-color: {bg_col}; padding: 10px;'>
       <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{github_icon}</span>
       <span style='color: {text_col}; font-family: {body_font};'> {github_username}</span><br>
       <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{linkedIn_icon}</span>
       <span style='color: {text_col}; font-family: {body_font};'> {linkedIn_username}</span><br>
       <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{web_icon}</span>
       <span style='color: {text_col}; font-family: {body_font};'> {web_link}</span>
-    </div>"
+    </p>"
   )
 }
