@@ -27,19 +27,19 @@ social <- function(github_username = "Gchism94",
                            github_icon = "&#xf09b",
                            linkedIn_icon = "&#xf08c",
                            web_icon = "&#xf0ac",
-                           bg_color = "#fefefe",
-                           icon_color = "#006199",
-                           font_color = "#006199",
-                           font_family = "roboto") {
+                           bg_col = "#fefefe",
+                           icon_col = "#006199",
+                           text_col = "#006199",
+                           body_font = "roboto") {
 
   glue::glue(
-    "<div style='background-color: {bg_color}; padding: 10px;'>
-      <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_color};'>{github_icon}</span>
-      <span style='color: {font_color}; font-family: {font_family};'> {github_username}</span><br>
-      <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_color};'>{linkedIn_icon}</span>
-      <span style='color: {font_color}; font-family: {font_family};'> {linkedIn_username}</span><br>
-      <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_color};'>{web_icon}</span>
-      <span style='color: {font_color}; font-family: {font_family};'> {web_link}</span>
+    "<div style='background-color: {bg_col}; padding: 10px;'>
+      <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{github_icon}</span>
+      <span style='color: {text_col}; font-family: {body_font};'> {github_username}</span><br>
+      <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{linkedIn_icon}</span>
+      <span style='color: {text_col}; font-family: {body_font};'> {linkedIn_username}</span><br>
+      <span style='font-family:\"Font Awesome 6 Brands\"; color: {icon_col};'>{web_icon}</span>
+      <span style='color: {text_col}; font-family: {body_font};'> {web_link}</span>
     </div>"
   )
 }

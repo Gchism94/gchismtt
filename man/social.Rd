@@ -11,10 +11,10 @@ social(
   github_icon = "&#xf09b",
   linkedIn_icon = "&#xf08c",
   web_icon = "&#xf0ac",
-  bg_color = "#fefefe",
-  icon_color = "#006199",
-  font_color = "#006199",
-  font_family = "roboto"
+  bg_col = "#fefefe",
+  icon_col = "#006199",
+  text_col = "#006199",
+  body_font = "roboto"
 )
 }
 \arguments{
