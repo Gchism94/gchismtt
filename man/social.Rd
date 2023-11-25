@@ -29,13 +29,11 @@ social(
 
 \item{web_icon}{HTML character entity for a generic web icon (default: "&#xf0ac").}
 
-\item{bg_color}{Background color for the HTML div (default: "#fefefe").}
+\item{icon_col}{Color for the icons (default: "#006199").}
 
-\item{icon_color}{Color for the icons (default: "#006199").}
+\item{text_col}{Color for the text (default: "#006199").}
 
-\item{font_color}{Color for the text (default: "#006199").}
-
-\item{font_family}{Font family for the text (default: "roboto").}
+\item{body_font}{Font family for the text (default: "roboto").}
 }
 \value{
 An HTML string representing the formatted social media details.
