@@ -29,7 +29,7 @@ if (!require(pacman))
   install.packages("pacman")
 
 pacman::p_load(camcorder,
-               #gchismtt,
+               gchismtt,
                glue,
                ggtext,
                patchwork,
@@ -43,7 +43,6 @@ pacman::p_load(camcorder,
 
 ```{r}
 tuesdata <- tidytuesdayR::tt_load(date_chr)
-
 ```
 
 ## Load fonts
@@ -84,12 +83,13 @@ gg_record(
 ## Define text
 
 ```{r}
-social <- gchismtt::social_caption(
-  bg_colour = bg_col,
-  icon_colour = highlight_col,
-  font_colour = text_col,
-  font_family = "roboto"
+social <- gchismtt::social(
+  bg_col = bg_col,
+  icon_col = highlight_col,
+  text_col = text_col,
+  body_font = body_font
 )
+
 title <- ""  # Add your title here
 st <- ""  # Add subtitle text here
 cap <- paste0(
@@ -101,6 +101,20 @@ cap <- paste0(
 
 ```{r}
 # Add plotting code here
+
+theme(
+  plot.margin = margin(5, 5, 5, 5),
+  plot.background = element_rect(fill = bg_col, colour = bg_col),
+  panel.background = element_rect(fill = bg_col, colour = bg_col),
+  plot.caption = element_textbox_simple(
+    colour = text_col,
+    hjust = 0.5,
+    halign = 0.5,
+    margin = margin(b = 10, t = 10),
+    lineheight = 0.5,
+    family = body_font
+  )
+)
 ```
 
 
